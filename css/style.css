@@ -1,0 +1,50 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+.active-menu {
+  background-color: #117a8b !important;
+}
+
+.icon-container {
+  background-color: #343a40;
+  color: #fff;
+  text-align: right;
+}
+
+.icon-container a {
+  color: #fff;
+}
+
+.icon-container a:hover {
+  color: #17a2b8;
+}
+
+.logo-container .first-heading {
+  color: #17a2b8;
+}
+
+.navbar-blue {
+  background-color: #17a2b8;
+}
+
+.navbar-blue .navbar-toggler-icon {
+  background-color: #fff !important;
+}
+
+.navbar-blue .nav-link {
+  color: #fff !important;
+  text-transform: uppercase;
+  padding: 15px !important;
+  font-weight: bold;
+}
+
+.navbar-blue .nav-link:hover {
+  background-color: #117a8b !important;
+}
