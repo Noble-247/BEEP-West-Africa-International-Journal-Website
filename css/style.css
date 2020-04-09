@@ -26,15 +26,19 @@ img {
   color: #343a40;
 }
 
+.site-text-optional {
+  color: #fff;
+}
+
 .site-bg-primary {
   background-color: #fff;
 }
 
-.site-bg-secondary-color {
+.site-bg-secondary {
   background-color: #343a40;
 }
 
-.site-bg-optional-color {
+.site-bg-optional {
   background-color: #17a2b8;
 }
 
@@ -50,10 +54,6 @@ img {
 
 .icon-container a:hover {
   color: #17a2b8;
-}
-
-.logo-container small {
-  line-height: 1 !important;
 }
 
 .navbar-blue {
@@ -77,4 +77,29 @@ img {
 
 .carousel-image {
   min-width: 600px;
+}
+
+#how-to-publish {
+  position: relative;
+  background: url(../image/book-shelves-book-stack-bookcase-books-207662.jpg);
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+
+#how-to-publish h3 {
+  position: relative;
+  z-index: 5;
+}
+
+#how-to-publish .how-to-publish_bg-color {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+#how-to-publish .how-to-publish-col-border {
+  border: 1px solid #17a2b8;
 }
