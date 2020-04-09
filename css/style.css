@@ -5,11 +5,15 @@ html {
 body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   line-height: 1.5;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .active-menu {
   background-color: #117a8b !important;
+}
+
+img {
+  width: 100%;
 }
 
 .icon-container {
@@ -26,7 +30,8 @@ body {
   color: #17a2b8;
 }
 
-.logo-container .first-heading {
+.logo-container .first-heading,
+.logo-container small {
   color: #17a2b8;
 }
 
@@ -47,4 +52,8 @@ body {
 
 .navbar-blue .nav-link:hover {
   background-color: #117a8b !important;
+}
+
+.carousel-image {
+  min-width: 600px;
 }
