@@ -1,11 +1,13 @@
 html {
   font-size: 100%;
+  background-color: #fff;
 }
 
 body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
-  line-height: 1.5;
   overflow-x: hidden;
+  line-height: 1;
+  font-size: 1.2rem;
 }
 
 .active-menu {
@@ -14,6 +16,26 @@ body {
 
 img {
   width: 100%;
+}
+
+.site-text-primary {
+  color: #17a2b8;
+}
+
+.site-text-secondary {
+  color: #343a40;
+}
+
+.site-bg-primary {
+  background-color: #fff;
+}
+
+.site-bg-secondary-color {
+  background-color: #343a40;
+}
+
+.site-bg-optional-color {
+  background-color: #17a2b8;
 }
 
 .icon-container {
@@ -30,9 +52,8 @@ img {
   color: #17a2b8;
 }
 
-.logo-container .first-heading,
 .logo-container small {
-  color: #17a2b8;
+  line-height: 1 !important;
 }
 
 .navbar-blue {
