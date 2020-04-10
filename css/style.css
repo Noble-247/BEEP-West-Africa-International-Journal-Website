@@ -69,10 +69,18 @@ img {
   text-transform: uppercase;
   padding: 15px !important;
   font-weight: 400;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: 0.5s;
+          transform: 0.5s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
 }
 
 .navbar-blue .nav-link:hover {
   background-color: #117a8b !important;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
 }
 
 .carousel-image {
@@ -105,4 +113,12 @@ img {
 
 #call-to-action p {
   font-size: 1.5rem;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #17a2b8;
 }
