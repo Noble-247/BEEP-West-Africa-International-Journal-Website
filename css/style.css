@@ -122,16 +122,3 @@ footer a {
 footer a:hover {
   color: #17a2b8;
 }
-
-.important-info {
-  padding: 5px;
-  /*  font-size: 0.9rem; */
-  line-height: 1;
-  /* width: 300px; */
-  border: 1px solid #17a2b8;
-  /*  height: 420px;
-    position: fixed;
-    right: 0;
-    bottom: 0px;
-    z-index: 10; */
-}
