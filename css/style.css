@@ -83,6 +83,19 @@ img {
           transform: translateY(4px);
 }
 
+.header-icons .header-paragraph {
+  display: inline-block;
+  font-size: 0.9rem;
+}
+
+.header-icons .header-paragraph:hover {
+  color: #17a2b8;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
 .carousel-image {
   min-width: 600px;
 }
