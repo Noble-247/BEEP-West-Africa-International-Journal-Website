@@ -1,5 +1,4 @@
 @import "variables";
-@import "about";
 @import "mixin";
 // GLOBAL STYLES
 html {
@@ -11,7 +10,7 @@ body {
     font-family: $font-stack;
     overflow-x: hidden;
     line-height: 1;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .active-menu {
@@ -70,7 +69,7 @@ img {
         color: $whitish-color!important;
         text-transform: uppercase;
         padding: 15px!important;
-        font-weight: 400;
+        font-weight: bold;
         transition: 0.5s;
         transform: 0.5s;
         transition-timing-function: ease-in-out;
@@ -94,50 +93,19 @@ img {
 //FOOTER STYLES
 footer {
     font-size: 0.9rem;
-}
-
-//CAROUSEL STYLES
-.carousel-image {
-    min-width: 600px;
-}
-
-// HOW TO PUBLISH SECTION
-#how-to-publish {
-    position: relative;
-    background: url(../image/book-shelves-book-stack-bookcase-books-207662.jpg);
-    background-size: cover;
-    /* background-attachment: fixed; */
-    h3 {
-        position: relative;
-        z-index: 5;
-    }
-    /*  .how-to-publish_bg-color {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba($color: #000000, $alpha: 0.9);
-    } */
-    .how-to-publish-col-border {
-        border: 1px solid $blueish-color;
-    }
-}
-
-// CALL TO ACTION SECTION
-#call-to-action {
-    p {
-        font-size: 1.5rem;
-    }
-}
-
-footer {
+    line-height: 2!important;
     a {
         color: $whitish-color;
         &:hover {
             color: $blueish-color;
         }
+        border: none!important;
+        padding-left: 0!important;
     }
 }
 
 // MODAL SECTION STYLES (IMPORTANT INFO)
+@import "home";
+@import "about";
+@import "call_for_paper";
+@import "submit_manuscript";

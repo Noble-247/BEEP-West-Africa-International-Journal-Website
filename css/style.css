@@ -7,7 +7,7 @@ body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   overflow-x: hidden;
   line-height: 1;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .active-menu {
@@ -68,7 +68,7 @@ img {
   color: #fff !important;
   text-transform: uppercase;
   padding: 15px !important;
-  font-weight: 400;
+  font-weight: bold;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   -webkit-transform: 0.5s;
@@ -94,10 +94,28 @@ img {
 
 footer {
   font-size: 0.9rem;
+  line-height: 2 !important;
+}
+
+footer a {
+  color: #fff;
+  border: none !important;
+  padding-left: 0 !important;
+}
+
+footer a:hover {
+  color: #17a2b8;
 }
 
 .carousel-image {
   min-width: 600px;
+}
+
+#main-section,
+#call-to-action,
+.modal-header,
+.modal-body {
+  line-height: 2;
 }
 
 #how-to-publish {
@@ -105,14 +123,6 @@ footer {
   background: url(../image/book-shelves-book-stack-bookcase-books-207662.jpg);
   background-size: cover;
   /* background-attachment: fixed; */
-  /*  .how-to-publish_bg-color {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba($color: #000000, $alpha: 0.9);
-    } */
 }
 
 #how-to-publish h3 {
@@ -128,10 +138,6 @@ footer {
   font-size: 1.5rem;
 }
 
-footer a {
-  color: #fff;
-}
-
-footer a:hover {
-  color: #17a2b8;
+#about-us {
+  line-height: 2;
 }
