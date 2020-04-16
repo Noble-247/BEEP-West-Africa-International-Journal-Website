@@ -1,0 +1,33 @@
+//CAROUSEL STYLES
+.carousel-image {
+    min-width: 600px;
+}
+
+#main-section,
+#call-to-action,
+.modal-header,
+.modal-body {
+    line-height: 2;
+}
+
+// HOW TO PUBLISH SECTION
+#how-to-publish {
+    position: relative;
+    background: url(../image/book-shelves-book-stack-bookcase-books-207662.jpg);
+    background-size: cover;
+    /* background-attachment: fixed; */
+    h3 {
+        position: relative;
+        z-index: 5;
+    }
+    .how-to-publish-col-border {
+        border: 1px solid $blueish-color;
+    }
+}
+
+// CALL TO ACTION SECTION
+#call-to-action {
+    p {
+        font-size: 1.5rem;
+    }
+}
