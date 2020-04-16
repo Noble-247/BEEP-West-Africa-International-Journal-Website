@@ -141,3 +141,11 @@ footer a:hover {
 #about-us {
   line-height: 2;
 }
+
+.call-for-paper-paragraphs {
+  line-height: 2 !important;
+}
+
+.tab-heading {
+  background-color: #343a40 !important;
+}
