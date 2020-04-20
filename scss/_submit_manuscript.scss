@@ -1,0 +1,26 @@
+.submit-mamuscript-details,
+.paper-subject-category,
+.contact-us,
+.list-group-item {
+    line-height: 2!important;
+    border: none!important;
+}
+
+.list-group-item {
+    line-height: 1!important;
+}
+
+.paper-subject-category {
+    div {
+        -webkit-box-shadow: 11px 5px 16px -10px rgba(23, 162, 184, 0.58);
+        -moz-box-shadow: 11px 5px 16px -10px rgba(23, 162, 184, 0.58);
+        box-shadow: 11px 5px 16px -10px rgba(23, 162, 184, 0.58);
+    }
+    .list-group-item {
+        &:hover {
+            font-size: x-large;
+            transition-duration: 0.5s;
+            transition-timing-function: ease-in-out;
+        }
+    }
+}

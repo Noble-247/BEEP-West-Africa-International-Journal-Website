@@ -10,6 +10,13 @@
     line-height: 2;
 }
 
+#main-section {
+    color: $black-color;
+    ul {
+        list-style-type: none;
+    }
+}
+
 // HOW TO PUBLISH SECTION
 #how-to-publish {
     position: relative;
