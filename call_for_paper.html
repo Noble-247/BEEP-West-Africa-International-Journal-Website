@@ -95,7 +95,6 @@
     <!-- End of Navigation -->
 
     <!-- Main Section -->
-
     <section id="call-for-paper-details">
         <div class="container mt-4">
             <h3 class="site-text-primary">Call for Paper 2020</h3>
@@ -105,34 +104,65 @@
             </p>
         </div>
         <div class="container">
-            <nav>
-                <div class="nav nav-tabs bg-dark" id="nav-tab" role="tablist">
-                    <a class="nav-item nav-link bg-dark text-white" id="nav-authors-tab" data-toggle="tab" href="#nav-authors" role="tab" aria-controls="nav-authors" aria-selected="true">For Authors</a>
-                    <a class="nav-item nav-link bg-dark text-white" id="nav-payment-tab" data-toggle="tab" href="#nav-payment" role="tab" aria-controls="nav-payment" aria-selected="false">Payment</a>
-                    <a class="nav-item nav-link bg-dark text-white" id="nav-editors-tab" data-toggle="tab" href="#nav-editors" role="tab" aria-controls="nav-editors" aria-selected="false">Editors</a>
+            <div class="accordion" id="accordionExample">
+                <!--Begining of Authors Accordion Card -->
+                <div class="card">
+                    <div class="card-header bg-dark" id="headingOne">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h4 class="mb-0 site-text-primary">For Authors</h4>
+                        </button>
+                    </div>
+                    <!--  Author Accordion Card Body -->
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <h5 class="site-text-primary mt-3">Benefits of Affiliated Authors</h5>
+                            <ol type="a" class="call-for-paper-paragraphs site-text-secondary">
+                                <li>Fast processing of publication (usually within 21 days).</li>
+                                <li>BEEP provides free "Soft Copy of paper" to authors through their contact email ID.
+                                </li>
+                                <li>All Papers are published online and in hard copies of the published papers are made available upon request by authors at no extra fees).</li>
+                            </ol>
+                        </div>
+                    </div>
                 </div>
-            </nav>
-            <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-authors" role="tabpanel" aria-labelledby="nav-authors-tab">
-                    <h5 class="site-text-primary mt-3">Benefits of Affiliated Authors</h5>
-                    <ol type="a" class="call-for-paper-paragraphs site-text-secondary">
-                        <li>Fast processing of publication (usually within 21 days).</li>
-                        <li>BEEP provides free "Soft Copy of paper" to authors through their contact email ID.</li>
-                        <li>All Papers are published online and in hard copies of the published papers are made available upon request by authors at no extra fees).</li>
-                    </ol>
-                </div>
-                <div class="tab-pane fade" id="nav-payment" role="tabpanel" aria-labelledby="nav-payment-tab">
-                    <h5 class="site-text-primary mt-3">Payment Details</h5>
-                    <p class="call-for-paper-paragraphs site-text-secondary mt-3"><strong>Account Name:</strong> BESTENE ENTERPRISES NIGERIA <br> <strong>Account Number:</strong> 0071240715 <br> <strong>Bank: </strong>Sterling Bank PLC</p>
-                    <p class="call-for-paper-paragraphs site-text-secondary">Kindly send details after payment to: +23409052840009, 09075249942, or email: beneacademicpool@aol.com, beneapoolpub@gmall.com</p>
-                </div>
-                <div class="tab-pane fade" id="nav-editors" role="tabpanel" aria-labelledby="nav-editors-tab">
-                    <h5 class="site-text-primary mt-3">Prestigious Reviewer Around the World</h5>
-                    <p class="call-for-paper-paragraphs call-for-paper-paragraphs">We have prestigious academic Journal Reviewers team from IITs, NITs and other World's renowned Polytechnics, Universities and other High Schools and Colleges in Nigeria, West Africa, United States, Australia, Canada, Japan, China,
-                        India and many more</p>
+
+                <!-- Begining of Payment Details Accordion Card -->
+                <div class="card">
+                    <div class="card-header bg-dark" id="headingTwo">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <h4 class="mb-0 site-text-primary">Paymant Details</h4>
+                        </button>
+                    </div>
+                    <!-- Payment Details Accordion Card Body -->
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <h5 class="site-text-primary mt-3">Payment Details</h5>
+                            <p class="call-for-paper-paragraphs site-text-secondary mt-3"><strong>Account Name:</strong> BESTENE ENTERPRISES NIGERIA <br> <strong>Account Number:</strong> 0071240715 <br>
+                                <strong>Bank: </strong>Sterling Bank PLC</p>
+                            <p class="call-for-paper-paragraphs site-text-secondary">Kindly send details after payment to: +23409052840009, 09075249942, or email: beneacademicpool@aol.com, beneapoolpub@gmall.com
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
+            <!-- Begining of Editors Accordion Card -->
+            <div class="card">
+                <div class="card-header bg-dark" id="headingThree">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h4 class="mb-0 site-text-primary">For Editors</h4>
+                    </button>
+                </div>
+                <!-- Editors Accordion Card Body -->
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h5 class="site-text-primary mt-3">Prestigious Reviewer Around the World</h5>
+                        <p class="call-for-paper-paragraphs call-for-paper-paragraphs">We have prestigious academic Journal Reviewers team from IITs, NITs and other World's renowned Polytechnics, Universities and other High Schools and Colleges in Nigeria, West Africa, United States, Australia, Canada, Japan, China,
+                            India and many more</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
         </div>
     </section>

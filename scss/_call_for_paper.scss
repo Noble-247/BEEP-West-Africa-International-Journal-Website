@@ -1,3 +1,9 @@
-.call-for-paper-paragraphs {
-    line-height: 2!important;
+section#call-for-paper-details {
+    .call-for-paper-paragraphs {
+        line-height: 2!important;
+    }
+    .btn-link:hover {
+        color: $blueish-color!important;
+        text-decoration: underline;
+    }
 }

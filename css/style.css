@@ -150,8 +150,13 @@ footer a:hover {
   line-height: 2;
 }
 
-.call-for-paper-paragraphs {
+section#call-for-paper-details .call-for-paper-paragraphs {
   line-height: 2 !important;
+}
+
+section#call-for-paper-details .btn-link:hover {
+  color: #17a2b8 !important;
+  text-decoration: underline;
 }
 
 .submit-mamuscript-details,
