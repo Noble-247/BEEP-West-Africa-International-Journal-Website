@@ -142,6 +142,15 @@ footer a:hover {
   font-size: 1.5rem;
 }
 
+@media screen and (max-width: 480px) {
+  #how-to-publish h3 {
+    font-size: 1.2rem;
+  }
+  #call-to-action p {
+    font-size: 1.2rem;
+  }
+}
+
 #about-us {
   line-height: 2;
 }
@@ -245,5 +254,12 @@ section#contact-us div.phoneNumber-details {
 @media screen and (max-width: 500px) {
   section#contact-us ul.contact {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  section#contact-us div.email-details,
+  section#contact-us div.phoneNumber-details {
+    font-size: 0.9rem;
   }
 }

@@ -38,3 +38,17 @@
         font-size: 1.5rem;
     }
 }
+
+//Media Query
+@media screen and (max-width: 480px) {
+    #how-to-publish {
+        h3 {
+            font-size: 1.2rem;
+        }
+    }
+    #call-to-action {
+        p {
+            font-size: 1.2rem;
+        }
+    }
+}
