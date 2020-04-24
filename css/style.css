@@ -69,18 +69,14 @@ img {
   text-transform: uppercase;
   padding: 15px !important;
   font-weight: bold;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
-  -webkit-transform: 0.5s;
-          transform: 0.5s;
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
+  transform: 0.5s;
+  transition-timing-function: ease-in-out;
 }
 
 .navbar-blue .nav-link:hover {
   background-color: #117a8b !important;
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+  transform: translateY(4px);
 }
 
 .header-icons .header-paragraph {
@@ -172,14 +168,82 @@ section#call-for-paper-details .btn-link:hover {
 }
 
 .paper-subject-category div {
-  -webkit-box-shadow: 11px 5px 16px -10px rgba(23, 162, 184, 0.58);
   box-shadow: 11px 5px 16px -10px rgba(23, 162, 184, 0.58);
 }
 
 .paper-subject-category .list-group-item:hover {
   font-size: x-large;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.pulsate-fwd {
+  animation: pulsate-fwd 2s ease-in-out infinite both;
+}
+
+.pulsate-fwd:hover {
+  animation: none;
+}
+
+@keyframes pulsate-fwd {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+section#contact-us .contact-us-paragraphs {
+  line-height: 2;
+}
+
+section#contact-us ul.contact {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  list-style-type: none;
+}
+
+section#contact-us li {
+  flex-grow: 1;
+  margin: 0 5px;
+}
+
+section#contact-us li.email,
+section#contact-us li.phoneNumber {
+  box-shadow: 11px 5px 16px -10px rgba(23, 162, 184, 0.58);
+}
+
+section#contact-us li div {
+  width: 100%;
+  height: 100px;
+}
+
+section#contact-us div.email-icon {
+  padding: 25px 0;
+}
+
+section#contact-us div.email-details {
+  padding: 25px 0;
+  font-size: 1.2rem;
+}
+
+section#contact-us div.phoneNumber-icon {
+  padding: 25px 0;
+}
+
+section#contact-us div.phoneNumber-details {
+  padding: 25px 0;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 500px) {
+  section#contact-us ul.contact {
+    flex-direction: column;
+  }
 }
