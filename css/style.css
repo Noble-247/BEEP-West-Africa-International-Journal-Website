@@ -18,6 +18,26 @@ img {
   width: 100%;
 }
 
+@media screen and (max-width: 767px) {
+  .logo-container {
+    text-align: center;
+  }
+}
+
+.logo-container .site-logo {
+  width: 80px;
+}
+
+.logo-container .logo-column {
+  padding-left: 10%;
+}
+
+@media screen and (max-width: 1100px) {
+  .logo-container .logo-column {
+    padding-left: 6%;
+  }
+}
+
 .site-text-primary {
   color: #17a2b8;
 }

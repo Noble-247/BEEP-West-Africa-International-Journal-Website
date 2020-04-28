@@ -21,6 +21,21 @@ img {
     width: 100%;
 }
 
+.logo-container {
+    @media screen and (max-width: 767px) {
+        text-align: center;
+    }
+    .site-logo {
+        width: 80px;
+    }
+    .logo-column {
+        padding-left: 10%;
+        @media screen and (max-width: 1100px) {
+            padding-left: 6%;
+        }
+    }
+}
+
 .site-text-primary {
     color: $blueish-color;
 }
